@@ -11,8 +11,9 @@ This is a small script for all people who hate editing there CV in word or photo
 
 
 # Sources
-* Avatar: https://unsplash.com/search/photos/portrait?photo=AuCrXk0pLWo
+* Picture: https://unsplash.com/search/photos/portrait?photo=AuCrXk0pLWo
 * Name: https://uinames.com/
 * Normalize.css: https://necolas.github.io/normalize.css/
 * Google Fonts: https://fonts.googleapis.com/css?family=PT+Sans:400,700
-* JQuery: https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js
+* JQuery: https://ajax.googleapis.com/ajax/libs/jq
+* SASS MediaQueries: https://paranoida.github.io/sass-mediaqueries/
