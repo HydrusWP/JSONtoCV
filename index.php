@@ -44,66 +44,46 @@
         </div>
     </div>
 
-    <div class="page" id="page1">
+    <div id="pages_wrapper">
 
-        <div class="top_bar bar"></div>
+        <div class="page" id="page1">
 
-        <header>
-            <div class="photo left">
-                <img src="" title="" width="5cm" height=""/>
-            </div>
-            <div class="information left">
-                <div class="name">
-                    <h1 class="full_name">
-                        <div class="last_name"></div>
-                        <div class="first_name"></div>
-                    </h1>
+            <div class="top_bar bar"></div>
+
+            <header>
+                <div class="photo left">
+                    <img src="" title="" width="200px" height=""/>
                 </div>
-                <div class="details">
-                    <div class="objective"></div>
+                <div class="information left">
+                    <div class="name">
+                        <h1 class="full_name">
+                            <div class="last_name"></div>
+                            <div class="first_name"></div>
+                        </h1>
+                    </div>
+                    <div class="details">
+                        <div class="objective"></div>
+                    </div>
                 </div>
-            </div>
-        </header>
-
-        <main>
-            <div id="education" class="steps">
-                <h2>Education</h2>
-                <div class="content"></div>
-            </div>
-            <div id="job" class="steps">
-                <h2>Work Experience</h2>
-                <div class="content"></div>
-            </div>
-        </main>
-
-        <aside>
-            <div id="skill">
-                <h2>Skills</h2>
-                <div class="content"></div>
-            </div>
-        </aside>
-
-        <footer id="footer" class="bottom_bar bar">
-            <div class="contact">
-                <!-- <div class="phone"><a href=""></a></div> -->
-                <div class="email"><a href=""></a></div>
-                <div class="homepage"><a href=""></a></div>
-                <div class="linkedin"><a href=""></a></div>
-            </div>
-        </footer>
-    </div>
-
-
-        <div class="page" id="page2">
+            </header>
 
             <main>
-                <div id="voluntary" class="steps">
-                    <h2>Voluntary Work</h2>
+                <div id="education" class="steps">
+                    <h2>Education</h2>
+                    <div class="content"></div>
+                </div>
+                <div id="job" class="steps">
+                    <h2>Work Experience</h2>
                     <div class="content"></div>
                 </div>
             </main>
 
-
+            <aside>
+                <div id="skill">
+                    <h2>Skills</h2>
+                    <div class="content"></div>
+                </div>
+            </aside>
 
             <footer id="footer" class="bottom_bar bar">
                 <div class="contact">
@@ -114,6 +94,27 @@
                 </div>
             </footer>
         </div>
+
+        <div class="page" id="page2">
+
+            <main>
+                <div id="voluntary" class="steps">
+                    <h2>Voluntary Work</h2>
+                    <div class="content"></div>
+                </div>
+            </main>
+
+            <footer id="footer" class="bottom_bar bar">
+                <div class="contact">
+                    <!-- <div class="phone"><a href=""></a></div> -->
+                    <div class="email"><a href=""></a></div>
+                    <div class="homepage"><a href=""></a></div>
+                    <div class="linkedin"><a href=""></a></div>
+                </div>
+            </footer>
+        </div>
+
+    </div>
 
     <button class="open">
         Stay in touch &#10084;
