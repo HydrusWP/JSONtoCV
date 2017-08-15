@@ -5,6 +5,7 @@ This is a small script for all people who hate editing there CV in word or photo
 * Responsive Mobile Version
 * Make the text markable
 * Make the links clickable
+
 ...
 * A UI for an easy input
 
