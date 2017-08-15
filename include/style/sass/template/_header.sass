@@ -3,12 +3,20 @@ header
         float: left
         img
             width: $photo_width
+            @media (max-width: $bp_smartphone)
+                width: 70%
+                margin: 0 15%
     .information
         margin-left: 15px
         width: $paper_width - ($paper_right + $paper_left + $photo_width + 1cm)
-        .name
+        @media (max-width: $bp_smartphone)
             width: 100%
+            margin: 20px 0 0 0
+        .name
             float: left
+            @media (max-width: $bp_smartphone)
+                text-align: center
+                width: 100%
             .full_name
                 color: $name
                 font-size: 4.9rem
@@ -16,6 +24,10 @@ header
                 line-height: 99%
                 margin: 0
                 padding: 0
+                @media (max-width: $bp_tablet)
+                    font-size: 4rem
+                @media (max-width: $bp_smartphone)
+                    color: $primary
         .details
             float: left
             width: 100%

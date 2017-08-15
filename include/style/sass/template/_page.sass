@@ -3,13 +3,22 @@
     position: relative
     background: $background_paper
     box-shadow: 0 0 15px rgba(0,0,0,0.5)
+    padding: $paper_top $paper_right $paper_bottom $paper_left
+    width:  $paper_width
+    height: $paper_height
     left: 50%
     margin-left: -$paper_width/2
     margin-top: 100px
     margin-bottom: 100px
-    width:  $paper_width
-    height: $paper_height
-    padding: $paper_top $paper_right $paper_bottom $paper_left
+    @media (max-width: $bp_tablet)
+        left: 0
+        width: 96%
+        height: auto
+        margin: 2%
+        float: left
+        margin-bottom: 50px
+    @media (max-width: $bp_smartphone)
+        padding: 10px
     .bar
         z-index: -5
         position: absolute
@@ -25,7 +34,7 @@
         left: 0
         width: 100%
     header
-        width: $header_width
+        width: 100%
         float: left
         margin-bottom: 20px
     main
@@ -34,15 +43,20 @@
     aside
         float: right
         width: $aside_width
+        @media (max-width: $bp_smartphone)
+            float: left
+            width: 100%
     footer
         float: left
         width: 100%
     .content
-        padding: 0.2cm 0.2cm
+        padding: 15px
 
 #page1
     main
-        width: $main_width
+        width: $main_width //with sidebar
+        @media (max-width: $bp_smartphone)
+            width: 100%
 #page2
     main
-        width: 100%
+        width: 100% //without sidebar
