@@ -1,0 +1,13 @@
+@media print {
+
+    button.open {
+        display: none;
+    }
+
+    .page {
+        margin: 0;
+        left: 0;
+        background: none;
+    }
+    
+}

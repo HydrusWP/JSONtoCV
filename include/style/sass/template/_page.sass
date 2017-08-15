@@ -1,0 +1,48 @@
+.page
+    z-index: -10
+    position: relative
+    background: $background_paper
+    box-shadow: 0 0 15px rgba(0,0,0,0.5)
+    left: 50%
+    margin-left: -$paper_width/2
+    margin-top: 100px
+    margin-bottom: 100px
+    width:  $paper_width
+    height: $paper_height
+    padding: $paper_top $paper_right $paper_bottom $paper_left
+    .bar
+        z-index: -5
+        position: absolute
+        background-color: $primary
+        -webkit-print-color-adjust: exact
+    .top_bar
+        top: 0
+        left: 0
+        height: 20%
+        width: 100%
+    .bottom_bar
+        bottom: 0
+        left: 0
+        width: 100%
+    header
+        width: $header_width
+        float: left
+        margin-bottom: 20px
+    main
+        float: left
+        padding-right: 0.5cm
+    aside
+        float: right
+        width: $aside_width
+    footer
+        float: left
+        width: 100%
+    .content
+        padding: 0.2cm 0.2cm
+
+#page1
+    main
+        width: $main_width
+#page2
+    main
+        width: 100%

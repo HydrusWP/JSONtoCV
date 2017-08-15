@@ -1,0 +1,30 @@
+header
+    .photo
+        float: left
+        img
+            width: $photo_width
+    .information
+        margin-left: 15px
+        width: $paper_width - ($paper_right + $paper_left + $photo_width + 1cm)
+        .name
+            width: 100%
+            float: left
+            .full_name
+                color: $name
+                font-size: 4.9rem
+                font-weight: 300
+                line-height: 99%
+                margin: 0
+                padding: 0
+        .details
+            float: left
+            width: 100%
+            margin-top: 39px
+            text-align: center
+            .address
+                div
+                    display: inline
+                    @extend %point
+                div:first-child
+                    &::before
+                        content: ""

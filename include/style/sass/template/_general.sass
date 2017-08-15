@@ -1,0 +1,48 @@
+html,
+*,
+*::before,
+*::after
+    box-sizing: border-box
+    padding: 0
+    margin: 0
+
+body
+    font-family: $font_general
+    font-weight: 400
+    font-size: 100%
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+    font-family: $font_headline
+    text-transform: uppercase
+
+h2,
+h4
+    color: $primary
+    border-bottom: 1px solid $primary
+    padding: 8px 0px 8px 15px
+    letter-spacing: 2px
+    float: left
+    width: 100%
+    margin-bottom: 15px
+
+a
+    color: $secondary
+    text-decoration: none
+    &:hover
+        color: $primary
+        text-decoration: underline
+        cursor: pointer
+
+.left
+    float: left
+
+.right
+    float: right
+
+.blue
+    color: $primary

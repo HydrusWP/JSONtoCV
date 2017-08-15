@@ -1,0 +1,26 @@
+.steps
+    .content
+        > div
+            margin-bottom: 15px
+            .title
+                @extend %title
+            .date
+                @extend %meta
+                display: inline
+                div
+                    display: inline
+                .from
+                    &::after
+                        content: " - "
+                .to
+            .location
+                @extend %meta
+                @extend %point
+                display: inline
+            .position
+                display: inline
+            .department
+                display: inline
+                @extend %point
+            .description
+                display: block

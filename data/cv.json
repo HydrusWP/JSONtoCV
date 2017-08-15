@@ -1,0 +1,186 @@
+{
+    "header": {
+        "name": {
+            "firstName": "Teresa",
+            "lastName": "Roberts"
+        },
+        "image": "include/images/Teresa_Roberts.jpg",
+        "contact": {
+            "linkedin": "https://linkedin.com/in/example",
+            "homepage": "https://example.de",
+            "email": "teresa@roberts.de"
+        },
+        "objective": ""
+    },
+    "education": {
+        "title": "Education",
+        "steps": [
+            {
+                "date": {
+                    "from": "09/2016",
+                    "to": "today"
+                },
+                "location": "Boston, USA",
+                "title": "Massachusetts Institute of Technology",
+                "description": "Business Informatics (focusing on Sales and Consulting)"
+
+            },
+            {
+                "date": {
+                    "from": "07/2012",
+                    "to": "07/2015"
+                },
+                "location": "Boston, USA",
+                "title": "Mattahunt Elementary School",
+                "description": "Advanced Courses: Business Administration, Information Technology, Mathematics"
+            }
+        ]
+    },
+    "job": {
+        "title": "Experience",
+        "steps": [
+            {
+                "date": {
+                    "from": "01/2017",
+                    "to": "04/2017"
+                },
+                "location": "New York City, USA",
+                "title": "Example Company",
+                "position": "Webdeveloper",
+                "department": "Awesome Team"
+            },
+            {
+                "date": {
+                    "from": "07/2015",
+                    "to": "09/2016"
+                },
+                "location": "Ludwigshafen, Germany",
+                "title": "My own Company",
+                "position": "Freelance webdesigner"
+            },
+            {
+                "date": {
+                    "to": "07/2015"
+                },
+                "location": "Boston, USA",
+                "title": "Demo",
+                "position": "Internship",
+                "department": "Solution management"
+            },
+            {
+                "date": {
+                    "to": "04/2012"
+                },
+                "location": "Boston, USA",
+                "title": "Frontend Company",
+                "position": "Internship",
+                "department": "Designer of digital and print media"
+            }
+        ]
+    },
+    "voluntary": {
+        "title": "Voluntary Work",
+        "steps": [
+            {
+                "date": {
+                    "from": "09/2016",
+                    "to": "today"
+                },
+                "location": "Boston, USA",
+                "title": "Awesome student association",
+                "position": "Head of IT department",
+                "department": "You have to write a short text about what you are doing here."
+            },
+            {
+                "date": {
+                    "from": "09/2016",
+                    "to": "today"
+                },
+                "location": "Mannheim, Germany",
+                "title": "Q-Summit",
+                "position": "Co-Head of IT department",
+                "department": "A conference for startups, entrepreneurship and students with over 500 participants. My team and I created the IT infrastructure and supported the event technology team during the event."
+            },
+            {
+                "date": {
+                    "from": "02/2015",
+                    "to": "02/2016"
+                },
+                "location": "New Hampshire, USA",
+                "title": "Local Sports Club (LSC)",
+                "position": "Deputy head of department",
+                "department": "A local sports club, I organized events for example to collect donations"
+            },
+            {
+                "date": {
+                    "from": "05/2012",
+                    "to": "08/2016"
+                },
+                "location": "New Hampshire, USA",
+                "title": "Local Sports Club (LSC)",
+                "position": "Youth trainer",
+                "department": "A local sports club, I was responsible for two teams: planning every week and team building events, imparting handball knowledge"
+            }
+        ]
+    },
+    "skills": {
+        "title": "Skills",
+        "category": [
+            {
+                "title": "Programming",
+                "skills": [
+                    {
+                        "title": "Java",
+                        "level": "3"
+                    },
+                    {
+                        "title": "PHP",
+                        "level": "2"
+                    },
+                    {
+                        "title": "JS, jQuery, Ajax",
+                        "level": "3"
+                    },
+                    {
+                        "title": "HTML, CSS",
+                        "level": "4"
+                    },
+                    {
+                        "title": "SQL",
+                        "level": "4"
+                    }
+                ]
+            },
+            {
+                "title": "Tools",
+                "skills": [
+                    {
+                        "title": "MS Office",
+                        "level": "4"
+                    },
+                    {
+                        "title": "Sketch",
+                        "level": "3"
+                    },
+                    {
+                        "title": "Wordpress",
+                        "level": "4"
+                    }
+                ]
+            },
+            {
+                "title": "Languages",
+                "skills": [
+                    {
+                        "title": "German",
+                        "level": "5"
+                    },
+                    {
+                        "title": "English",
+                        "level": "3"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+#skill
+    .content
+        > div
+            margin-bottom: 10px
+            > .title
+                @extend %title
+            .skills
+                > div
+                    display: flex
+                    > .title
+                        flex: 1
+                    > .level
+                        flex: 0 0 72px
+                        float: left
+                        &:hover
+                            .full_point
+                                background: $secondary
+                        .point
+                            border: 5px solid #000
+                            border-radius: 50%
+                            float: left
+                            margin-right: 3px
+                            &:last-child
+                                margin-right: 0
+                        .full_point
+                            border-color: $primary
+                        .empty_point
+                            border-color: $lightgray

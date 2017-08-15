@@ -1,0 +1,15 @@
+footer
+    color: $white
+    a
+        color: $white
+        &:hover
+            color: $secondary
+    .contact
+        text-align: center
+        margin: 10px auto
+        div
+            display: inline
+            @extend %point
+        div:first-child
+            &::before
+                content: ""
