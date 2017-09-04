@@ -1,17 +1,20 @@
 header
+    @media (max-width: $bp_smartphone)
+        width: 100%
     .photo
         float: left
+        @media (max-width: $bp_smartphone)
+            width: 100%
         img
             width: $photo_width
             @media (max-width: $bp_smartphone)
-                width: 70%
-                margin: 0 15%
+                width: 60%
+                margin: 10% 20% 0 20%
     .information
-        margin-left: 15px
-        width: $paper_width - ($paper_right + $paper_left + $photo_width + 1cm)
+        margin: 0 0 0 15px
         @media (max-width: $bp_smartphone)
+            margin: 30px 0 0 0
             width: 100%
-            margin: 20px 0 0 0
         .name
             float: left
             @media (max-width: $bp_smartphone)
@@ -31,7 +34,7 @@ header
         .details
             float: left
             width: 100%
-            margin-top: 39px
+            margin: 39px 0 0 0
             text-align: center
             .address
                 div
