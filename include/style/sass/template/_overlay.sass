@@ -1,5 +1,6 @@
 #overlay
     position: fixed
+    z-index: 100
     background: rgba(255, 255, 255, 0.9)
     color: $black
     text-align: center
@@ -25,6 +26,10 @@
         top: 30%
         left: 50%
         transform: translate(-50%, -50%)
+        @media (max-width: $bp_smartphone)
+            width: 96%
+            min-width: 96%
+            margin: 10% 2%
         h4
             font-size: 3.5rem
         p
@@ -34,13 +39,16 @@
     padding: 1rem
     color: $primary
     display: block
-    margin: 0px auto
+    margin: 0px auto 100px auto
     text-align: center
-    margin-bottom: 100px
     border: 1px solid $primary
     background: none
     transition: all 500ms
     cursor: pointer
+    @media (max-width: $bp_smartphone)
+        margin: 50px 6%
+        width: 88%
+        float: left
     &:hover
         color: $white
         background: $primary

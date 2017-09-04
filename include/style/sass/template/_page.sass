@@ -1,17 +1,23 @@
 .page
-    z-index: -10
     position: relative
     background: $background_paper
     box-shadow: 0 0 15px rgba(0,0,0,0.5)
+    padding: $paper_top $paper_right $paper_bottom $paper_left
+    width:  $paper_width
+    height: $paper_height
     left: 50%
     margin-left: -$paper_width/2
     margin-top: 100px
     margin-bottom: 100px
-    width:  $paper_width
-    height: $paper_height
-    padding: $paper_top $paper_right $paper_bottom $paper_left
+    @media (max-width: $bp_tablet)
+        left: 0
+        width: 96%
+        height: auto
+        margin: 2%
+        float: left
+    @media (max-width: $bp_smartphone)
+        padding: 15px
     .bar
-        z-index: -5
         position: absolute
         background-color: $primary
         -webkit-print-color-adjust: exact
@@ -20,29 +26,40 @@
         left: 0
         height: 20%
         width: 100%
+        @media (max-width: $bp_mini)
+            height: 13%
     .bottom_bar
         bottom: 0
         left: 0
         width: 100%
     header
-        width: $header_width
+        position: relative
+        z-index: 10
+        width: 100%
         float: left
         margin-bottom: 20px
     main
         float: left
-        padding-right: 0.5cm
+        width: 100%
+    @media (max-width: $bp_smartphone)
+        padding-bottom: 50px
     aside
         float: right
         width: $aside_width
+        padding-left: 20px
+        @media (max-width: $bp_smartphone)
+            float: left
+            width: 100%
+            padding: 0
     footer
         float: left
         width: 100%
+        @media (max-width: $bp_smartphone)
     .content
-        padding: 0.2cm 0.2cm
+        padding: 15px
 
 #page1
     main
-        width: $main_width
-#page2
-    main
-        width: 100%
+        width: $main_width //with sidebar
+        @media (max-width: $bp_smartphone)
+            width: 100%

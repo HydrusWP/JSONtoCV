@@ -17,6 +17,7 @@ header .information .details .address div, .steps .content > div .location, .ste
 
 #overlay {
   position: fixed;
+  z-index: 100;
   background: rgba(255, 255, 255, 0.9);
   color: #252525;
   text-align: center;
@@ -34,7 +35,7 @@ header .information .details .address div, .steps .content > div .location, .ste
     -webkit-transition: all 300ms;
     transition: all 300ms; }
     #overlay .x:hover {
-      color: #c6052f;
+      color: #C6052F;
       -webkit-transform: scale(1.2);
               transform: scale(1.2); }
   #overlay .inner {
@@ -45,6 +46,11 @@ header .information .details .address div, .steps .content > div .location, .ste
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%); }
+    @media (max-width: 650px) {
+      #overlay .inner {
+        width: 96%;
+        min-width: 96%;
+        margin: 10% 2%; } }
     #overlay .inner h4 {
       font-size: 3.5rem; }
     #overlay .inner p {
@@ -53,19 +59,23 @@ header .information .details .address div, .steps .content > div .location, .ste
 .open {
   font-size: 2rem;
   padding: 1rem;
-  color: #c6052f;
+  color: #C6052F;
   display: block;
-  margin: 0px auto;
+  margin: 0px auto 100px auto;
   text-align: center;
-  margin-bottom: 100px;
-  border: 1px solid #c6052f;
+  border: 1px solid #C6052F;
   background: none;
   -webkit-transition: all 500ms;
   transition: all 500ms;
   cursor: pointer; }
+  @media (max-width: 650px) {
+    .open {
+      margin: 50px 6%;
+      width: 88%;
+      float: left; } }
   .open:hover {
     color: #ffffff;
-    background: #c6052f;
+    background: #C6052F;
     -webkit-transform: scale(1.2);
             transform: scale(1.2); }
 
@@ -94,19 +104,19 @@ h6 {
 
 h2,
 h4 {
-  color: #c6052f;
-  border-bottom: 1px solid #c6052f;
+  color: #C6052F;
+  border-bottom: 1px solid #C6052F;
   padding: 8px 0px 8px 15px;
   letter-spacing: 2px;
   float: left;
   width: 100%;
-  margin-bottom: 15px; }
+  margin: 0 0 15px 0; }
 
 a {
-  color: #ef2d57;
+  color: #c6052f;
   text-decoration: none; }
   a:hover {
-    color: #c6052f;
+    color: #C6052F;
     text-decoration: underline;
     cursor: pointer; }
 
@@ -116,8 +126,8 @@ a {
 .right {
   float: right; }
 
-.blue {
-  color: #c6052f; }
+.primary {
+  color: #C6052F; }
 
 body {
   background: url(../../images/crossword.png) #ffffff repeat; }
@@ -127,7 +137,6 @@ body {
     left: 0;
     width: 100%;
     height: 10px;
-    z-index: -49;
     -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
             box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8); }
   body::before {
@@ -135,75 +144,103 @@ body {
   body::after {
     bottom: -10px; }
 
-#background_bar {
-  top: 0;
-  position: absolute;
-  background: #ef2d57;
-  height: 40%;
-  width: 100%;
-  z-index: -50;
-  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-          box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); }
-
 .page {
-  z-index: -10;
   position: relative;
   background: #FFFFF7;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  padding: 60px 40px 60px 40px;
+  width: 794px;
+  height: 1140px;
   left: 50%;
-  margin-left: -10.5cm;
+  margin-left: -397px;
   margin-top: 100px;
-  margin-bottom: 100px;
-  width: 21cm;
-  height: 29.7cm;
-  padding: 1.5cm 1cm 1.5cm 1cm; }
+  margin-bottom: 100px; }
+  @media (max-width: 834px) {
+    .page {
+      left: 0;
+      width: 96%;
+      height: auto;
+      margin: 2%;
+      float: left; } }
+  @media (max-width: 650px) {
+    .page {
+      padding: 15px; } }
   .page .bar {
-    z-index: -5;
     position: absolute;
-    background-color: #c6052f;
+    background-color: #C6052F;
     -webkit-print-color-adjust: exact; }
   .page .top_bar {
     top: 0;
     left: 0;
     height: 20%;
     width: 100%; }
+    @media (max-width: 500px) {
+      .page .top_bar {
+        height: 13%; } }
   .page .bottom_bar {
     bottom: 0;
     left: 0;
     width: 100%; }
   .page header {
+    position: relative;
+    z-index: 10;
     width: 100%;
     float: left;
     margin-bottom: 20px; }
   .page main {
     float: left;
-    padding-right: 0.5cm; }
+    width: 100%; }
+  @media (max-width: 650px) {
+    .page {
+      padding-bottom: 50px; } }
   .page aside {
     float: right;
-    width: 30%; }
+    width: 30%;
+    padding-left: 20px; }
+    @media (max-width: 650px) {
+      .page aside {
+        float: left;
+        width: 100%;
+        padding: 0; } }
   .page footer {
     float: left;
     width: 100%; }
   .page .content {
-    padding: 0.2cm 0.2cm; }
+    padding: 15px; }
 
 #page1 main {
   width: 70%; }
+  @media (max-width: 650px) {
+    #page1 main {
+      width: 100%; } }
 
-#page2 main {
-  width: 100%; }
-
+@media (max-width: 650px) {
+  header {
+    width: 100%; } }
 header .photo {
   float: left; }
+  @media (max-width: 650px) {
+    header .photo {
+      width: 100%; } }
   header .photo img {
-    width: 5cm; }
+    width: 200px; }
+    @media (max-width: 650px) {
+      header .photo img {
+        width: 60%;
+        margin: 10% 20% 0 20%; } }
 header .information {
-  margin-left: 15px;
-  width: 13cm; }
+  margin: 0 0 0 15px; }
+  @media (max-width: 650px) {
+    header .information {
+      margin: 30px 0 0 0;
+      width: 100%; } }
   header .information .name {
-    width: 100%;
     float: left; }
+    @media (max-width: 650px) {
+      header .information .name {
+        text-align: center;
+        width: 100%; } }
     header .information .name .full_name {
       color: #ffffff;
       font-size: 4.9rem;
@@ -211,32 +248,40 @@ header .information {
       line-height: 99%;
       margin: 0;
       padding: 0; }
+      @media (max-width: 834px) {
+        header .information .name .full_name {
+          font-size: 4rem; } }
+      @media (max-width: 650px) {
+        header .information .name .full_name {
+          color: #C6052F; } }
   header .information .details {
     float: left;
     width: 100%;
-    margin-top: 39px;
+    margin: 39px 0 0 0;
     text-align: center; }
     header .information .details .address div {
       display: inline; }
     header .information .details .address div:first-child::before {
       content: ""; }
 
-.steps .content > div {
-  margin-bottom: 15px; }
-  .steps .content > div .date {
-    display: inline; }
-    .steps .content > div .date div {
+.steps {
+  width: 100%; }
+  .steps .content > div {
+    margin: 0 0 15px 0; }
+    .steps .content > div .date {
       display: inline; }
-    .steps .content > div .date .from::after {
-      content: " - "; }
-  .steps .content > div .location {
-    display: inline; }
-  .steps .content > div .position {
-    display: inline; }
-  .steps .content > div .department {
-    display: inline; }
-  .steps .content > div .description {
-    display: block; }
+      .steps .content > div .date div {
+        display: inline; }
+      .steps .content > div .date .from::after {
+        content: " - "; }
+    .steps .content > div .location {
+      display: inline; }
+    .steps .content > div .position {
+      display: inline; }
+    .steps .content > div .department {
+      display: inline; }
+    .steps .content > div .description {
+      display: block; }
 
 #skill .content > div {
   margin-bottom: 10px; }
@@ -254,16 +299,16 @@ header .information {
               flex: 0 0 72px;
       float: left; }
       #skill .content > div .skills > div > .level:hover .full_point {
-        background: #ef2d57; }
+        background: #c6052f; }
       #skill .content > div .skills > div > .level .point {
         border: 5px solid #000;
         border-radius: 50%;
         float: left;
-        margin-right: 3px; }
+        margin: 0 3px 0 0; }
         #skill .content > div .skills > div > .level .point:last-child {
-          margin-right: 0; }
+          margin: 0; }
       #skill .content > div .skills > div > .level .full_point {
-        border-color: #c6052f; }
+        border-color: #C6052F; }
       #skill .content > div .skills > div > .level .empty_point {
         border-color: #cccccc; }
 
@@ -272,7 +317,8 @@ footer {
   footer a {
     color: #ffffff; }
     footer a:hover {
-      color: #ef2d57; }
+      color: #ffffff;
+      text-decoration: underline; }
   footer .contact {
     text-align: center;
     margin: 10px auto; }
@@ -280,5 +326,3 @@ footer {
       display: inline; }
     footer .contact div:first-child::before {
       content: ""; }
-
-/*# sourceMappingURL=main.css.map */
