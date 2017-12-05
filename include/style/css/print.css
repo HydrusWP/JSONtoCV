@@ -1,5 +1,9 @@
 @media print {
 
+    body {
+        background: tomato;
+    }
+
     button.open {
         display: none;
     }
