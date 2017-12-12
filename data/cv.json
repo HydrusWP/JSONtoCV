@@ -4,7 +4,7 @@
             "firstName": "Jakob",
             "lastName": "Möller"
         },
-        "image": "include/images/jm.jpg",
+        "image": "include/images/xx.jpg",
         "contact": {
             "linkedin": "https://www.linkedin.com/in/jakob-m%C3%B6ller-37261112a/",
             "homepage": "https://jakob-moeller.de",
@@ -20,19 +20,19 @@
                     "from": "09/2016",
                     "to": "today"
                 },
-                "location": "Boston, USA",
-                "title": "Massachusetts Institute of Technology",
+                "location": "Mannheim, Germany",
+                "title": "Duale Hochschule Baden-Württemberg Mannheim",
                 "description": "Business Informatics (focusing on Sales and Consulting)"
 
             },
             {
                 "date": {
-                    "from": "07/2012",
-                    "to": "07/2015"
+                    "from": "07/2004",
+                    "to": "07/2016"
                 },
-                "location": "Boston, USA",
-                "title": "Mattahunt Elementary School",
-                "description": "Advanced Courses: Business Administration, Information Technology, Mathematics"
+                "location": "Saarbrücken, Germany",
+                "title": "Otto-Hahn Gymnasium Saarbrücken",
+                "description": "Advanced Courses: English, Mathematics, Information Technology"
             }
         ]
     },
@@ -41,40 +41,32 @@
         "steps": [
             {
                 "date": {
-                    "from": "01/2017",
-                    "to": "04/2017"
+                    "from": "08/2017",
+                    "to": "11/2017"
                 },
-                "location": "New York City, USA",
-                "title": "Example Company",
-                "position": "Webdeveloper",
-                "department": "Awesome Team"
+                "location": "Walldorf, Germany",
+                "title": "SAP SE",
+                "position": "Prototype Designer, SAP SuccessFactors Consulting",
+                "department": "Path-to-Value (P2V) Service Development and Delivery"
             },
             {
                 "date": {
-                    "from": "07/2015",
-                    "to": "09/2016"
+                    "from": "01/2015",
+                    "to": "04/2016"
                 },
-                "location": "Ludwigshafen, Germany",
-                "title": "My own Company",
-                "position": "Freelance webdesigner"
+                "location": "Walldorf, Germany",
+                "title": "SAP SE",
+                "position": "Integration Developer",
+                "department": "Kingston: Concur to ERP Integration"
             },
             {
                 "date": {
-                    "to": "07/2015"
+                    "from": "04/2013"
                 },
-                "location": "Boston, USA",
-                "title": "Demo",
-                "position": "Internship",
-                "department": "Solution management"
-            },
-            {
-                "date": {
-                    "to": "04/2012"
-                },
-                "location": "Boston, USA",
-                "title": "Frontend Company",
-                "position": "Internship",
-                "department": "Designer of digital and print media"
+                "location": "Saarbrücken, Germany",
+                "title": "Informations- und Kommunikationsinstitut der Landeshauptstadt Saarbrücken",
+                "position": "Intern",
+                "department": "External Services"
             }
         ]
     },
@@ -83,43 +75,23 @@
         "steps": [
             {
                 "date": {
-                    "from": "09/2016",
-                    "to": "today"
+                    "from": "09/2014",
+                    "to": "07/2016"
                 },
-                "location": "Boston, USA",
-                "title": "Awesome student association",
-                "position": "Head of IT department",
-                "department": "You have to write a short text about what you are doing here."
-            },
-            {
-                "date": {
-                    "from": "09/2016",
-                    "to": "today"
-                },
-                "location": "Mannheim, Germany",
-                "title": "Q-Summit",
-                "position": "Co-Head of IT department",
-                "department": "A conference for startups, entrepreneurship and students with over 500 participants. My team and I created the IT infrastructure and supported the event technology team during the event."
+                "location": "Saarbrücken, Germany",
+                "title": "Otto-Hahn Gymnasium",
+                "position": "Student speaker",
+                "department": "Working on events and helping students realize their projects"
             },
             {
                 "date": {
                     "from": "02/2015",
-                    "to": "02/2016"
+                    "to": "05/2016"
                 },
-                "location": "New Hampshire, USA",
-                "title": "Local Sports Club (LSC)",
-                "position": "Deputy head of department",
-                "department": "A local sports club, I organized events for example to collect donations"
-            },
-            {
-                "date": {
-                    "from": "05/2012",
-                    "to": "08/2016"
-                },
-                "location": "New Hampshire, USA",
-                "title": "Local Sports Club (LSC)",
-                "position": "Youth trainer",
-                "department": "A local sports club, I was responsible for two teams: planning every week and team building events, imparting handball knowledge"
+                "location": "Saarbrücken, Germany",
+                "title": "Student Newspaper OHG",
+                "position": "Head of Student Newspaper",
+                "department": "Responsible for design, structure and content of the School's Newspaper in print and in digital version."
             }
         ]
     },
@@ -131,15 +103,15 @@
                 "skills": [
                     {
                         "title": "Java",
-                        "level": "3"
+                        "level": "4"
                     },
                     {
                         "title": "PHP",
                         "level": "2"
                     },
                     {
-                        "title": "JS, jQuery, Ajax",
-                        "level": "3"
+                        "title": "JavaScript, jQuery, Ajax",
+                        "level": "2"
                     },
                     {
                         "title": "HTML, CSS",
@@ -159,12 +131,16 @@
                         "level": "4"
                     },
                     {
-                        "title": "Sketch",
+                        "title": "Adobe Premiere",
+                        "level": "3"
+                    },
+                    {
+                        "title": "Adobe Photoshop",
                         "level": "3"
                     },
                     {
                         "title": "Wordpress",
-                        "level": "4"
+                        "level": "3"
                     }
                 ]
             },
@@ -177,7 +153,11 @@
                     },
                     {
                         "title": "English",
-                        "level": "3"
+                        "level": "4"
+                    },
+                    {
+                        "title": "French",
+                        "level": "2"
                     }
                 ]
             }
