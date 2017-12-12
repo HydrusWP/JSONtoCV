@@ -1,16 +1,16 @@
 {
     "header": {
         "name": {
-            "firstName": "Teresa",
-            "lastName": "Roberts"
+            "firstName": "Jakob",
+            "lastName": "Möller"
         },
-        "image": "include/images/Teresa_Roberts.jpg",
+        "image": "include/images/jm.jpg",
         "contact": {
-            "linkedin": "https://linkedin.com/in/example",
-            "homepage": "https://example.de",
-            "email": "teresa@roberts.de"
+            "linkedin": "https://www.linkedin.com/in/jakob-m%C3%B6ller-37261112a/",
+            "homepage": "https://jakob-moeller.de",
+            "email": "jakobsb.mail@gmail.com"
         },
-        "objective": ""
+        "objective": "BAzubi at SAP SE, working there since late 2016. Passionate for Computers and Efficiency."
     },
     "education": {
         "title": "Education",
