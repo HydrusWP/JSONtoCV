@@ -35,7 +35,7 @@ header .information .details .address div, .steps .content > div .location, .ste
     -webkit-transition: all 300ms;
     transition: all 300ms; }
     #overlay .x:hover {
-      color: #C6052F;
+      color: black;
       -webkit-transform: scale(1.2);
               transform: scale(1.2); }
   #overlay .inner {
@@ -59,11 +59,11 @@ header .information .details .address div, .steps .content > div .location, .ste
 .open {
   font-size: 2rem;
   padding: 1rem;
-  color: #C6052F;
+  color: black;
   display: block;
   margin: 0px auto 100px auto;
   text-align: center;
-  border: 1px solid #C6052F;
+  border: 1px solid black;
   background: none;
   -webkit-transition: all 500ms;
   transition: all 500ms;
@@ -75,7 +75,7 @@ header .information .details .address div, .steps .content > div .location, .ste
       float: left; } }
   .open:hover {
     color: #ffffff;
-    background: #C6052F;
+    background: black;
     -webkit-transform: scale(1.2);
             transform: scale(1.2); }
 
@@ -104,8 +104,8 @@ h6 {
 
 h2,
 h4 {
-  color: #C6052F;
-  border-bottom: 1px solid #C6052F;
+  color: black;
+  border-bottom: 1px solid black;
   padding: 8px 0px 8px 15px;
   letter-spacing: 2px;
   float: left;
@@ -113,10 +113,10 @@ h4 {
   margin: 0 0 15px 0; }
 
 a {
-  color: #c6052f;
+  color: black;
   text-decoration: none; }
   a:hover {
-    color: #C6052F;
+    color: black;
     text-decoration: underline;
     cursor: pointer; }
 
@@ -127,7 +127,7 @@ a {
   float: right; }
 
 .primary {
-  color: #C6052F; }
+  color: black; }
 
 body {
   background: url(../../images/crossword.png) #ffffff repeat; }
@@ -168,7 +168,7 @@ body {
       padding: 15px; } }
   .page .bar {
     position: absolute;
-    background-color: #C6052F;
+    background-color: black;
     -webkit-print-color-adjust: exact; }
   .page .top_bar {
     top: 0;
@@ -253,7 +253,7 @@ header .information {
           font-size: 4rem; } }
       @media (max-width: 650px) {
         header .information .name .full_name {
-          color: #C6052F; } }
+          color: black; } }
   header .information .details {
     float: left;
     width: 100%;
@@ -299,7 +299,7 @@ header .information {
               flex: 0 0 72px;
       float: left; }
       #skill .content > div .skills > div > .level:hover .full_point {
-        background: #c6052f; }
+        background: black; }
       #skill .content > div .skills > div > .level .point {
         border: 5px solid #000;
         border-radius: 50%;
@@ -308,7 +308,7 @@ header .information {
         #skill .content > div .skills > div > .level .point:last-child {
           margin: 0; }
       #skill .content > div .skills > div > .level .full_point {
-        border-color: #C6052F; }
+        border-color: black; }
       #skill .content > div .skills > div > .level .empty_point {
         border-color: #cccccc; }
 
